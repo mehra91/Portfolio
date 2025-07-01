@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    color: aliceblue;
+    }
+     
+    
+    html, body{
+    height:100% ;
+    width: 100%;
+    background-color: black;
+    }
+    
+    .navigation_bar{
+        display: flex;
+        /* background-color:brown; */
+        align-items: center;
+         
+        height: 20%;
+        width: 100%;
+       
+    
+    }
+    
+    .left_bar{
+         align-items: flex-start;
+         /* background-color: blueviolet; */
+          margin:20px;
+         /* border: 2px solid black; */
+    
+    }
+    
+    .right_bar{
+      
+        /* background-color: yellow; */
+        display: flex;
+        /* border: 2px solid black; */
+       
+        width: 55%;
+     
+     
+    }
+    
+    #logo{
+        text-align: center;
+        height: 50px;
+        font-size:30px;
+        font-weight:bolder;
+        padding: 10px;
+        cursor: pointer;
+        text-wrap: nowrap;
+        
+    }
+    #logo a{
+          text-decoration: none;
+    }
+    
+    #resources{
+        align-items: flex-end;
+        gap: 1rem;
+        display: flex;
+        padding: 2px;
+        /* background-color: green; */
+        margin-left:49%;
+         
+        
+    
+        /* text-wrap: nowrap; */
+         
+    }
+    
+    #no3{
+        cursor: pointer;
+    }
+    
+    #no3 a{
+        text-decoration: none;
+    }
+    
+    #resources h3:hover{
+        font-size: larger;
+    }
+    
+    .social_media{
+        margin:30px;
+        display: flex;
+        
+    }
+     
+    
+    #S_icon{
+        cursor: pointer;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+     
+        
+        
+    }
+    
+    #S_icon a{
+        text-decoration: none;
+    
+    }
+     
+    #S_icon :hover{
+        font-size:larger;
+         
+     
+    }
+
+
+.contact_body{
+    display: flex;
+    margin: 50px;
+    margin-top: 70px;
+
+
+}
+
+#left_div{
+    height: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 50px;
+    
+
+}
+
+#Lh1{
+    font-size: 40px;
+    font-weight:600;
+
+}
+#para{
+    font: 500;
+    font-size:20px;
+}
+
+p a{
+    
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+
+#right_div{
+    height: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+   padding-right: 50px;
+    background-color:gray;
+    border-radius: 50px;
+}
+
+#form{
+    justify-content: center;
+    align-items: center;
+  
+    padding: 50px;
+    padding-top: 20px;
+   
+}
+
+#label{
+   font-size: 20px;
+   font-weight:bold;
+   color: black;
+}
+
+#label i{
+    opacity: 0.5;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+input{
+    color:black;
+    font-size:medium;
+    border-style: hidden;
+    height:40px;
+    border-radius: 7px;
+    width: 70%;
+    /* overflow-x: hidden;
+    overflow-y: visible;
+    text-wrap: wrap; */
+}
+
+button{
+    align-items: center;
+    text-align: center;
+     color: black; 
+     border: 3px solid black;
+     border-radius: 5px;
+     width:  auto;
+     height: 40px;
+     font-size: larger;
+     cursor: pointer;
+     
+}
+
+button i{
+    color:black;
+   cursor: pointer;
+
+}
+
+ 

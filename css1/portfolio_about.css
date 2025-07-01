@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    color: aliceblue;
+    }
+     
+    
+    html, body{
+    height:100% ;
+    width: 100%;
+    background-color: black;
+    }
+    
+    .navigation_bar{
+        display: flex;
+        /* background-color:brown; */
+        align-items: center;
+         
+        height: 20%;
+        width: 100%;
+       
+    
+    }
+    
+    .left_bar{
+         align-items: flex-start;
+         /* background-color: blueviolet; */
+          margin:20px;
+         /* border: 2px solid black; */
+    
+    }
+    
+    .right_bar{
+      
+        /* background-color: yellow; */
+        display: flex;
+        /* border: 2px solid black; */
+       
+        width: 55%;
+     
+     
+    }
+    
+    #logo{
+        text-align: center;
+        height: 50px;
+        font-size:30px;
+        font-weight:bolder;
+        padding: 10px;
+        cursor: pointer;
+        text-wrap: nowrap;
+        
+    }
+    #logo a{
+          text-decoration: none;
+    }
+    
+    #resources{
+        align-items: flex-end;
+        gap: 1rem;
+        display: flex;
+        padding: 2px;
+        /* background-color: green; */
+        margin-left:49%;
+         
+        
+    
+        /* text-wrap: nowrap; */
+         
+    }
+    
+    #no3{
+        cursor: pointer;
+    }
+    
+    #no3 a{
+        text-decoration: none;
+    }
+    
+    #resources h3:hover{
+        font-size: larger;
+    }
+    
+    .social_media{
+        margin:30px;
+        display: flex;
+        
+    }
+     
+    
+    #S_icon{
+        cursor: pointer;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+     
+        
+        
+    }
+    
+    #S_icon a{
+        text-decoration: none;
+    
+    }
+     
+    #S_icon :hover{
+        font-size:larger;
+         
+     
+    }
+
+.about_body{
+    /* background-color:lightcoral; */
+   padding: 20px;
+    height: auto;
+    width: 100%;
+ 
+}
+#about{
+    background-color: grey;
+    padding: 10px;
+    border: 10px;
+    border-radius:40px;
+    margin: 30px;
+    margin: left 50px;
+    margin-right:50px;
+    padding: 10px;
+    
+}
+
+#top_div{
+    /* background-color: rebeccapurple; */
+    margin: 10px;
+    padding: 10px;
+    gap: 2px;
+     
+
+}
+
+#Skills{
+    text-decoration: none;
+    padding-left: 2px;
+    font-size: 40px;
+   
+}
+#Skills a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo_skills{
+    display: flex;
+    font-size: 40px;
+    align-items: stretch;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+#logo_skills h3 i{
+    display:inline-flex;
+    font-size: 150px;
+    gap:10;
+    color: black;
+    cursor: pointer;
+    
+}
+#logo_skills h3 i:hover{
+      color:gainsboro;
+      transform: rotateX(30deg);
+      transform:rotateY(10deg);
+      transform: rotateZ(20deg);
+}
+ 
+
+
+#bottom_div{
+    margin: 10px;
+    padding: 10px;
+    gap: 2px;
+     
+
+}
+
+#Education{
+    text-decoration: none;
+    padding-left: 2px;
+    font-size: 40px;
+   
+}
+#Education a {
+    text-decoration: none;
+    color: black;
+}
+#Education a i{
+    text-decoration: none;
+    color: black;
+}
+
+#part1{
+    margin: 10px;
+    padding: 10px;
+    
+}
+ 
+#part1 h2 a{
+   
+    color: black;
+}
+#part1 h4{
+    color: black;
+}
+
+#part2{
+    margin: 10px;
+    padding: 10px;
+}
+#part2 h2 a{
+    color: black;
+    /* text-decoration: none; */
+}
+#part2 h4{
+    color: black;
+}
