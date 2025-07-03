@@ -35,7 +35,7 @@ background-color: black;
 .right_bar{
   
     /* background-color: yellow; */
-    display: flex;
+    display: flex-end;
     /* border: 2px solid black; */
    
     width: 55%;
@@ -64,15 +64,15 @@ background-color: black;
     padding: 2px;
     /* background-color: green; */
     margin-left:49%;
-     
-    
-
+ 
     /* text-wrap: nowrap; */
      
 }
 
 #no3{
     cursor: pointer;
+    float: right;
+    /* font-size: 20px; */
 }
 
 #no3 a{
@@ -83,34 +83,51 @@ background-color: black;
     font-size: larger;
 }
 
-.social_media{
-    margin:30px;
-    display: flex;
-    
-}
- 
-
-#S_icon{
-    cursor: pointer;
-    padding: 5px;
+.social_media{ 
+    display: flex;   
+    /* background-color: #1877F2; */
+    padding:10px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
- 
-    
-    
-}
 
-#S_icon a{
+   
+}
+.social_media h3 a{
     text-decoration: none;
+   
+
+}
+  .social_media h3 a i{
+     transition: all 0.3s ease-in-out;
+}
+
+#S_iconA a i:hover{
+    color: white;
+    background-color: offwhite;
+    font-size: 40px;
+    border-radius: 50%;
 
 }
  
-#S_icon :hover{
-    font-size:larger;
-     
+#S_iconB a i:hover{
+    background: linear-gradient(45deg, #fdf497, #fd5949, #d6249f, #285AEB);
+      color: white;
+        font-size: 40px;
+        border-radius: 50%;
  
 }
+ 
 
+#S_iconC a i:hover{
+    color:#1877F2;
+    background-color: white;
+    font-size: 40px;
+    border-radius: 50%;
+   
+    
+}
+ 
 /* main part started */
 
 .intro_div{
@@ -157,13 +174,23 @@ background-color: black;
 
 .img_part{
     object-fit: cover;
-   
-
+    cursor: pointer;
+    padding: 30px;
+ 
+ 
 }
 
+.img_part :hover{
+    transform: scale(1.5);
+    transition: all 0.8s ease-in-out;
+    box-shadow: gray 0px 0px 10px 2px;
+}
 #photo{
- height:500px;
- border-radius: 5%;
+    width: 200px;
+    height:200px;
+    box-shadow:gray 0px 0px 10px 2px;
+    transition: transform 0.3s ease-in-out;
+ border-radius: 50%;
 }
 
 .social_media2{
@@ -172,34 +199,54 @@ background-color: black;
     
 }
  .social_media2 h3{
-    cursor: pointer;
+    
     padding: 5px;
     align-items: center;
     justify-content: center;
     opacity:0.2;
- 
+    border-radius: 50%;
+    
     
     
 }
 
 .social_media2 h3  a{
     text-decoration: none;
+  
 
 }
- 
- .social_media2 :hover{
-    font-size:larger;
- 
+ #S_icon1 a i{
+     transition: all 0.3s ease-in-out;
 }
+
 #S_icon1 a i:hover{
     color: white;
+    background-color: offwhite;
+    font-size: 40px;
+    border-radius: 50%;
 
 }
-#S_icon2 a i:hover{
-    color:maroon;
-    
+#S_icon2 a i{
+     transition: all 0.3s ease-in-out;
+    background-color: black; 
 }
+
+#S_icon2 a i:hover{
+    background: linear-gradient(45deg, #fdf497, #fd5949, #d6249f, #285AEB);
+      color: white;
+        font-size: 40px;
+        border-radius: 50%;
+ 
+}
+#S_icon3 a i{
+     transition: all 0.3s ease-in-out;
+}
+
 #S_icon3 a i:hover{
-    color: blue;
+    color:#1877F2;
+    background-color: white;
+    font-size: 40px;
+    border-radius: 50%;
+   
     
 }
