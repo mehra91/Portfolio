@@ -167,23 +167,27 @@ p a{
 
 
 #right_div{
-    height: auto;
+    height: 500px;
     width: 50%;
     align-items: center;
     justify-content: center;
     margin: 10px;
-    padding-top: 50px;
-    padding-left: 100px;
+    padding-top: 20px;
+    padding-left: 80px;
     padding-bottom: 50px;
-   padding-right: 50px;
+   padding-right: 30px;
     background-color:gray;
     border-radius: 50px;
 }
-
+#right_div form input{
+    padding: 30px;
+    margin: 10px;
+    width: 100%;
+}
 #form{
     justify-content: center;
     align-items: center;
-  
+    
     padding: 50px;
     padding-top: 20px;
    
