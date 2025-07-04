@@ -151,8 +151,7 @@
     margin: 10px;
     padding: 10px;
     gap: 2px;
-     
-
+    
 }
 
 #Skills{
@@ -172,7 +171,8 @@
     align-items: stretch;
     margin: 10px;
     padding: 10px;
-    
+ justify-content: center;
+ flex-wrap: wrap;
 }
 
 #logo_skills h3 i{
@@ -181,13 +181,45 @@
     gap:10;
     color: black;
     cursor: pointer;
+    opacity: 0.8
     
 }
-#logo_skills h3 i:hover{
-      color:gainsboro;
-      transform: rotateX(30deg);
-      transform:rotateY(10deg);
-      transform: rotateZ(20deg);
+#html5_logo :hover{
+      color:#E34F26;
+      transition: all 0.3s ease-in-out;
+      transition-duration: 1s ;
+        transform: scale(1.1);
+}
+#css3_logo :hover{
+      color: #1572B6;
+      transition: all 0.3s ease-in-out;
+      transition-duration: 1s ;
+        transform: scale(1.1);
+}
+#js_logo :hover{
+      color: #F7DF1E;
+      transition: all 0.3s ease-in-out;
+      transition-duration: 1s ;
+        transform: scale(1.1);
+}
+#git_logo :hover{
+      color: #181717;
+      transition: all 0.3s ease-in-out;
+      transition-duration: 1s ;
+        transform: scale(1.1);
+}
+#Boot_logo :hover{
+      color: #563D7C;
+      transition: all 0.3s ease-in-out;
+      transition-duration: 1s ;
+        transform: scale(1.1);
+}
+#tailwind_logo :hover{
+      color: #38bff8;
+      transition: all 0.3s ease-in-out;
+      transition-duration: 1s ;
+        transform: scale(1.1);
+        
 }
  
 
@@ -240,3 +272,5 @@
 #part2 h4{
     color: black;
 }
+
+ 
