@@ -182,14 +182,14 @@ background-color: black;
 
 .img_part :hover{
     transform: scale(1.5);
-    transition: all 0.8s ease-in-out;
+    /* transition: all 2000ms ease-in-out; */
     box-shadow: gray 0px 0px 10px 2px;
 }
 #photo{
     width: 200px;
     height:200px;
     box-shadow:gray 0px 0px 10px 2px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.8s ease-in-out;
  border-radius: 50%;
 }
 
