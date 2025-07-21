@@ -13,9 +13,9 @@ const skills = [
 ];
 
 const Carousel = () => (
-   <div id='skills' className=' overflow-hidden relative mt-10  flex  bg-orange-100    h-40'>
-    <div className="  w-2/4 py-2 ml-4    " style={{ height: "70px" }}>
-        <h2 className='text-4xl font-semibold px-5  '>
+   <div id='skills' className=' overflow-hidden relative mt-10  flex h-50  bg-emerald-100    md:h-52  '>
+    <div className="  w-2/4 py-2 ml-4    flex flex-col  " style={{ height: "70px" }}>
+        <h2 className='text-4xl font-bold   px-5   '>
             Skills
         </h2>
         <div
@@ -27,8 +27,8 @@ const Carousel = () => (
 
             {[...skills ,...skills,...skills,...skills].map((skill, idx) => (
                 <div key={idx} className="flex flex-col items-center min-w-[80px]">
-                    <img src={skill.img} alt={skill.name} className="h-10 w-10 mb-2" />
-                    <span className="text-xs">{skill.name}</span>
+                    <img src={skill.img} alt={skill.name} className="h-15 w-10 mb-2" />
+                    <span className="text-sm font-bold opacity-80">{skill.name}</span>
                 </div>
             ))}
         </div>
