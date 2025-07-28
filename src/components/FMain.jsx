@@ -8,7 +8,7 @@ const FMain = () => {
              <h1 className=' text-3xl md:text-5xl font-bold flex items-center justify-center text-wrap '> I'm a Frontend Developer</h1>
              <div className='flex justify-center '>
              <button className='mt-6 rounded text-xl font-bold  h-auto  w-auto p-2 hover:bg-emerald-800 bg-emerald-600 md:bg-emerald-400 flex items-center justify-center ' >
-                <a href="https://docs.google.com/document/d/1fuv6nreKRQAQKV1N6iBKMPqHqRRYlsrAoRiwQL5yZuI/edit?usp=sharing" target='blank'> Resume</a>
+                <a href="https://docs.google.com/document/d/14xEK8timYxvci2lVCmpNZtm2zNYfTIZlpCretz0C0EA/edit?usp=sharing" target='blank'> Resume</a>
              </button>
             </div>  
            </div>
